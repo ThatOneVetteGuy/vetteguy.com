@@ -18,7 +18,7 @@ body{
     font-size: larger;
 }
 nav{
-    background-color: #b83c40;
+    background-color: rgb(184, 60, 64);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
@@ -37,10 +37,10 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #861932;
+    color: rgb(134, 25, 50);
 }
 nav a:hover{
-    background-color: #b83c40;
+    background-color: rgb(184, 60, 64);
 }
 nav li:first-child{
     margin-right: auto;
