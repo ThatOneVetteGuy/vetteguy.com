@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Corvette;
+    src: url(vettefont.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +13,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Arial;
+    font-family: Vette;
+    font-weight: bold;
+    font-size: larger;
 }
 nav{
-    background-color: white;
+    background-color: #b83c40;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
@@ -30,10 +37,10 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #861932;
 }
 nav a:hover{
-    background-color: #f0f0f0;
+    background-color: #b83c40;
 }
 nav li:first-child{
     margin-right: auto;
